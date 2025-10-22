@@ -1,0 +1,40 @@
+.line{
+    background-color:rgb(44, 62, 80);;
+    height: 4px;
+    width: 80px;
+}
+.contact{
+ height: 90vh;
+ margin-top: 92px;
+
+}
+.contact form button{
+    background-Color: #1abc9c
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.label {
+    position: absolute;
+    top: 40px;
+    transition: all 0.3s ease;
+    color: #1abc9c;
+    margin-bottom: 10px;
+}
+
+.form-control:focus ~ .label {
+    top: -10px;
+    color: #16a085;
+    display: block !important;
+    transition: all 0.3s ease;
+
+}
+form button{
+    background-color: #1abc9c !important;
+}

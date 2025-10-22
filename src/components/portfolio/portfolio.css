@@ -1,0 +1,22 @@
+.line{
+    background-color:rgb(44, 62, 80);;
+    height: 4px;
+    width: 80px;
+}
+.portfolio{
+ margin-top: 92px;
+
+}
+.layer{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+    
+}
+.layer:hover{
+    opacity: 1;
+} 
+.model img{
+    width: 600px;
+}

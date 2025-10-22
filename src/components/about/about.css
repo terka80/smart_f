@@ -1,0 +1,10 @@
+.about {
+    background-color: #1abc9c;
+    height: 90vh;
+   
+}
+.about .line{
+    background-color: white;
+    height: 4px;
+    width: 80px;
+}

@@ -1,0 +1,5 @@
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    background-color: #1abc9c;
+    padding: 8px;
+    border-radius: 10px;
+}
