@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-
+import home from"../../assets/home.png"
 export default function Home() {
   return <>
     <div className="d-flex flex-column  align-items-center justify-content-center text-center home text-white">
