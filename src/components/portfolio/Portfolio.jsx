@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import "./portfolio.css";
-import poert from"../../assets/poert.png"
-import port2 from"../../assets/port2.png"
-import port3 from"../../assets/port3.png"
+import poert from"assets/poert.png"
+import port2 from"assets/port2.png"
+import port3 from"assets/port3.png"
 
 
 export default function Portfolio() {
