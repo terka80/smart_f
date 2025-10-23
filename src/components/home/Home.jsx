@@ -1,6 +1,5 @@
 import React from 'react'
 import './home.css'
-import "src/assets/home.png"
 
 export default function Home() {
   return <>
