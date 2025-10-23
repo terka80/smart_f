@@ -10,12 +10,12 @@ export default function Portfolio() {
   const [modalImg, setModalImg] = useState("");
 
   const images = [
-    {port1},
-    {port2},
-    {port3},
-    {port1},  
-    {port2},
-    {port3}
+    port1,
+    port2,
+    port3,
+    port1,  
+    port2,
+    port3
   ];
 
   const handleLayerClick = (src) => {
