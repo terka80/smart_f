@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import "./portfolio.css";
-import poert from"/assets/poert.png"
-import port2 from"/assets/port2.png"
-import port3 from"/assets/port3.png"
+import port1 from"../../assets/port1.png"
+import port2 from"../../assets/port2.png"
+import port3 from"../../assets/port3.png"
 
 
 export default function Portfolio() {
@@ -10,12 +10,12 @@ export default function Portfolio() {
   const [modalImg, setModalImg] = useState("");
 
   const images = [
-    "/assets/port1.png",
-    "/assets/port2.png",
-    "/assets/port3.png",
-    "/assets/port1.png",
-    "/assets/port2.png",
-    "/assets/port3.png"
+    "../../assets/port1.png",
+    "../../assets/port2.png",
+    "../../assets/port3.png",
+    "../../assets/port1.png",
+    "../../assets/port2.png",
+    "../../assets/port3.png"
   ];
 
   const handleLayerClick = (src) => {
