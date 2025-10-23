@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import "./portfolio.css";
-import "../../assets/poert.jpg";
-import "../../assets/port2.jpg";
-import "../../assets/port3.jpg";
+import "src/assets/poert.jpg"
+import "src/assets/port2.jpg"
+import "src/assets/port3.jpg"
+
 export default function Portfolio() {
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImg, setModalImg] = useState("");

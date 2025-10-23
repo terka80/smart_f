@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-
+import "src/assets/home.svg"
 
 export default function Home() {
   return <>
